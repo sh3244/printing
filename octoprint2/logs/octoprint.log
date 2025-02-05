@@ -1,0 +1,872 @@
+2025-02-05 16:28:04,455 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:28:04,455 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:28:04,455 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:28:04,460 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:28:04,460 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:28:04,461 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:28:04,463 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:28:09,961 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:28:10,029 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:28:10,374 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:28:10,432 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:28:10,438 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:28:10,438 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:28:10,443 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:28:10,443 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:28:10,443 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:28:10,444 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:28:10,444 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:28:10,444 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:28:10,444 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:28:10,444 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:28:10,447 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:28:10,447 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:28:10,447 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:28:10,447 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:28:10,448 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:28:10,448 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:28:10,448 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:28:10,448 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_manage'), Need(method='role', value='plugin_pluginmanager_install')")
+2025-02-05 16:28:10,448 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:28:10,449 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:28:10,449 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:28:10,461 - octoprint.plugins.achievements - INFO - No data file found, starting with empty data
+2025-02-05 16:28:10,462 - octoprint.plugins.achievements - INFO - No data file for the current year found, starting with empty data
+2025-02-05 16:28:10,901 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:28:11,339 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:28:11,341 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:28:11,342 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:28:11,363 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:28:11,364 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:28:11,383 - octoprint.plugins.classicwebcam - INFO - Migrating settings from webcam to plugins.classicwebcam...
+2025-02-05 16:28:11,452 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x1073bb460>
+2025-02-05 16:28:11,453 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:28:11,455 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:28:11,457 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:28:11,457 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:28:11,457 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:28:11,580 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:28:11,938 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:28:12,038 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:28:12,038 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:28:12,039 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:28:12,040 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:28:12,041 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:28:12,041 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:28:12,043 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:28:12,046 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:28:12,053 - octoprint.plugins.achievements - INFO - New achievement unlocked: The Wizard!
+2025-02-05 16:28:12,863 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:28:13,681 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:28:13,689 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on abcs-Mac-mini for SSDP
+2025-02-05 16:28:13,691 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:28:14,119 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:28:14,119 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:28:14,119 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:28:14,122 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 181.5GB. That is considered sufficient for updating.
+2025-02-05 16:28:14,122 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:28:14,129 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.4s
+2025-02-05 16:28:14,440 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2025-02-05 16:28:14,532 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.39s
+2025-02-05 16:28:15,116 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.39s
+2025-02-05 16:28:15,221 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2025-02-05 16:28:15,491 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.36s
+2025-02-05 16:28:15,883 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.37s
+2025-02-05 16:28:16,072 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:28:16,073 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:28:16,073 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:28:16,075 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2025-02-05 16:30:53,945 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:32:51,031 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:32:51,032 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:32:51,032 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:32:51,103 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:32:51,103 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:32:51,103 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:32:51,104 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:32:51,536 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:32:51,569 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:32:51,581 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:32:51,614 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:32:51,632 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:32:51,632 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:32:51,634 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:32:51,635 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_manage'), Need(method='role', value='plugin_pluginmanager_install')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:32:51,636 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:32:51,641 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:32:51,642 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:32:51,649 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:32:51,904 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:32:52,100 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:32:52,102 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:32:52,102 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:32:52,115 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:32:52,116 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:32:52,121 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x107373310>
+2025-02-05 16:32:52,121 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:32:52,122 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:32:52,124 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:32:52,125 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:32:52,125 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:32:52,179 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:32:52,616 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:32:52,618 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:32:52,619 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:32:52,619 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:32:52,620 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:32:52,620 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:32:52,623 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:32:52,623 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:32:52,624 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:32:53,757 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:32:54,566 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:32:54,567 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:32:54,583 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:32:54,756 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:32:54,757 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:32:54,758 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:32:54,758 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:32:54,759 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 193.7GB. That is considered sufficient for updating.
+2025-02-05 16:32:54,759 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:33:48,457 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:33:48,457 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:33:48,457 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:33:48,511 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:33:48,511 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:33:48,511 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:33:48,512 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:33:48,967 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:33:49,007 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:33:49,014 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:33:49,034 - octoprint.cli.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/Users/sam/.pyenv/versions/3.9.21/bin/octoprint", line 8, in <module>
+    sys.exit(main())
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/__init__.py", line 1008, in main
+    octo(args=args, prog_name="octoprint", auto_envvar_prefix="OCTOPRINT")
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/cli/server.py", line 317, in serve_command
+    run_server(
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/cli/server.py", line 163, in run_server
+    octoprint_server.run()
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/server/__init__.py", line 408, in run
+    self._start_intermediary_server()
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/server/__init__.py", line 2674, in _start_intermediary_server
+    self._intermediary_server.server_bind()
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Users/sam/.pyenv/versions/3.9.21/lib/python3.9/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+2025-02-05 16:41:00,921 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:41:00,921 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:41:00,921 - octoprint.startup - INFO - Starting in SAFE MODE. Third party plugins will be disabled!
+2025-02-05 16:41:00,921 - octoprint.startup - INFO - Reason for safe mode: problem during last startup
+2025-02-05 16:41:00,921 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:41:00,974 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:41:00,974 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:41:00,974 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:41:00,975 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:41:01,410 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:41:01,452 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:41:01,460 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:41:01,482 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:41:01,483 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:41:01,483 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:41:01,484 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_manage'), Need(method='role', value='plugin_pluginmanager_install')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:41:01,485 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:41:01,489 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:41:01,489 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:41:01,496 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:41:01,717 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:41:01,885 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:41:01,887 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:41:01,887 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:41:01,895 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:41:01,895 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:41:01,899 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x10fdff490>
+2025-02-05 16:41:01,899 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:41:01,901 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:41:01,903 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:41:01,903 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:41:01,903 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:41:01,956 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:41:01,983 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:41:01,984 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:41:01,984 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:41:01,984 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:41:01,985 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:41:01,985 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:41:01,986 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:41:01,987 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:41:01,988 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:41:02,798 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:41:03,613 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:41:03,617 - octoprint.server - INFO - Listening on http://0.0.0.0:5001 and http://[::]:5001
+2025-02-05 16:41:03,646 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:41:03,834 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:41:03,844 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:41:03,844 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:41:03,844 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:41:03,845 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 193.3GB. That is considered sufficient for updating.
+2025-02-05 16:41:03,845 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:41:08,731 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'path': '/', 'base_url': 'http://localhost:5001/', 'query_string': 'l10n=en', '_timestamp': 1738791668.7318132, '_count': 1}
+2025-02-05 16:41:09,701 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:41:11,650 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:41:11,752 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:41:12,804 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:41:12,881 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:41:13,749 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:41:13,836 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:42:09,377 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:42:09,378 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:42:09,378 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:42:09,427 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:42:09,428 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:42:09,428 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:42:09,429 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:42:09,856 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:42:09,896 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:42:09,903 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:42:09,925 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:42:09,927 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:42:09,927 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:42:09,927 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:42:09,928 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:42:09,932 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:42:09,932 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:42:09,938 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:42:10,159 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:42:10,341 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:42:10,343 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:42:10,343 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:42:10,351 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:42:10,351 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:42:10,356 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x108f26130>
+2025-02-05 16:42:10,356 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:42:10,357 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:42:10,360 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:42:10,361 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:42:10,361 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:42:10,413 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:42:10,426 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:42:10,427 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:42:10,427 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:42:10,428 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:42:10,428 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:42:10,428 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:42:10,430 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:42:10,431 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:42:10,432 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:42:11,240 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:42:12,051 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:42:12,056 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:42:12,088 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:42:12,288 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:42:12,292 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:42:12,292 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:42:12,293 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:42:12,294 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 193.2GB. That is considered sufficient for updating.
+2025-02-05 16:42:12,294 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:42:12,655 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5001/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:42:13,672 - octoprint.server.preemptive_cache - INFO - ... done in 1.02s
+2025-02-05 16:42:44,427 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'path': '/', 'base_url': 'http://localhost:5002/', 'query_string': 'l10n=en', '_timestamp': 1738791764.4273689, '_count': 1}
+2025-02-05 16:42:44,647 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:42:46,441 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:42:46,534 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:42:51,566 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:42:51,644 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:42:52,911 - octoprint.server.util.sockjs - INFO - Client connection closed: ::1
+2025-02-05 16:42:52,984 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:48:56,684 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:48:56,685 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:48:56,685 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:48:56,753 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:48:56,753 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:48:56,753 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:48:56,755 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:48:57,110 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:48:57,143 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:48:57,150 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:48:57,183 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:48:57,185 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:48:57,185 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:48:57,186 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:48:57,190 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:48:57,191 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:48:57,197 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:48:57,429 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:48:57,652 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:48:57,654 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:48:57,654 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:48:57,666 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:48:57,666 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:48:57,671 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x105106430>
+2025-02-05 16:48:57,672 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:48:57,673 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:48:57,679 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:48:57,679 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:48:57,680 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:48:57,747 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:48:58,189 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:48:58,190 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:48:58,190 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:48:58,190 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:48:58,191 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:48:58,191 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:48:58,193 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:48:58,192 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:48:58,247 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:48:59,055 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:48:59,861 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:48:59,863 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on abcs-Mac-mini for SSDP
+2025-02-05 16:48:59,863 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:48:59,878 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:49:00,059 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:49:00,059 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:49:00,059 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:49:00,060 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:49:00,061 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 192.7GB. That is considered sufficient for updating.
+2025-02-05 16:49:00,061 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:49:00,557 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5001/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:49:01,560 - octoprint.server.preemptive_cache - INFO - ... done in 1.00s
+2025-02-05 16:49:01,560 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5002/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:49:01,677 - octoprint.server.preemptive_cache - INFO - ... done in 0.12s
+2025-02-05 16:49:16,600 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2025-02-05 16:50:02,797 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:50:02,797 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:50:02,797 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:50:02,852 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:50:02,852 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:50:02,852 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:50:02,853 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:50:03,282 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:50:03,323 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:50:03,329 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:50:03,352 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:50:03,354 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:50:03,354 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:50:03,355 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:50:03,359 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:50:03,360 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:50:03,366 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:50:03,595 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:50:03,794 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:50:03,795 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:50:03,795 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:50:03,804 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:50:03,804 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:50:03,809 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x1074b7430>
+2025-02-05 16:50:03,809 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:50:03,811 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:50:03,814 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:50:03,814 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:50:03,814 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:50:03,870 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:50:04,360 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:50:04,365 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:50:04,365 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:50:04,369 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:50:04,370 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:50:04,372 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:50:04,373 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:50:04,375 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:50:04,380 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:50:05,193 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:50:06,004 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:50:06,008 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:50:06,038 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:50:06,233 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:50:06,244 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:50:06,244 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:50:06,244 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:50:06,246 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 192.5GB. That is considered sufficient for updating.
+2025-02-05 16:50:06,246 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:50:06,675 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5001/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:50:07,719 - octoprint.server.preemptive_cache - INFO - ... done in 1.04s
+2025-02-05 16:50:07,719 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5002/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:50:07,839 - octoprint.server.preemptive_cache - INFO - ... done in 0.12s
+2025-02-05 16:53:01,402 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:53:01,402 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:53:01,403 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:53:01,475 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:53:01,475 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:53:01,475 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:53:01,476 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:53:01,960 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:53:02,003 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:53:02,012 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:53:02,036 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:53:02,038 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:53:02,038 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:53:02,039 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:53:02,061 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:53:02,062 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:53:02,074 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:53:02,304 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:53:02,475 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:53:02,477 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:53:02,477 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:53:02,485 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:53:02,485 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:53:02,489 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x1042ef460>
+2025-02-05 16:53:02,489 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:53:02,491 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:53:02,494 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:53:02,495 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:53:02,495 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:53:02,548 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:53:03,045 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:53:03,048 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:53:03,049 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:53:03,050 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:53:03,052 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:53:03,053 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:53:03,056 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:53:03,057 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:53:03,061 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:53:03,875 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:53:04,686 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:53:04,690 - octoprint.server - INFO - Listening on http://0.0.0.0:5002 and http://[::]:5002
+2025-02-05 16:53:04,719 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:53:04,916 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:53:04,920 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:53:04,920 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:53:04,920 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:53:04,921 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 191.4GB. That is considered sufficient for updating.
+2025-02-05 16:53:04,922 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:53:05,289 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5001/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:55:50,400 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:55:50,400 - octoprint.startup - INFO - Starting OctoPrint 1.10.3
+2025-02-05 16:55:50,400 - octoprint.startup - INFO - ******************************************************************************
+2025-02-05 16:55:50,464 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2025-02-05 16:55:50,464 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2025-02-05 16:55:50,464 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2025-02-05 16:55:50,465 - octoprint.plugin.core - INFO - Loading plugins from /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins, octoprint2/plugins and installed plugin packages...
+2025-02-05 16:55:50,930 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin (2023.10.10) did not pass check, not loading.
+2025-02-05 16:55:50,976 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 39 hook handlers
+2025-02-05 16:55:50,983 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2025-02-05 16:55:51,008 - octoprint.server - INFO - Intermediary server started
+2025-02-05 16:55:51,010 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads...
+2025-02-05 16:55:51,010 - octoprint.filemanager.storage - INFO - ... file metadata for /Users/sam/Documents/GitHub/printing/octoprint2/uploads initialized successfully.
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_manage'), Need(method='role', value='plugin_announcements_read')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2025-02-05 16:55:51,011 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2025-02-05 16:55:51,012 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2025-02-05 16:55:51,012 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_manage'), Need(method='role', value='plugin_pluginmanager_install')")
+2025-02-05 16:55:51,012 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2025-02-05 16:55:51,012 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2025-02-05 16:55:51,012 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2025-02-05 16:55:51,016 - octoprint.plugins.achievements - INFO - Loading data from octoprint2/data/achievements/data.json
+2025-02-05 16:55:51,017 - octoprint.plugins.achievements - INFO - Loading data for None from octoprint2/data/achievements/2025.json
+2025-02-05 16:55:51,024 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2025-02-05 16:55:51,274 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:55:51,465 - octoprint.util.pip - INFO - Version of pip is 23.0.1
+2025-02-05 16:55:51,467 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:55:51,467 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:55:51,478 - octoprint.plugins.file_check - INFO - Native grep available: True
+2025-02-05 16:55:51,478 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2025-02-05 16:55:51,483 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0x104a03640>
+2025-02-05 16:55:51,483 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Achievements Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/achievements
+|  Action Command Notification Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|  Action Command Prompt Support (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/backup
+|  Classic Webcam (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|  Core Wizard (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|  Event Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|  File Check (2024.11.12) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint_firmware_check
+|  GCode Viewer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|  Logging (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2025-02-05 16:55:51,485 - octoprint.environment - INFO - Detected environment is Python 3.9.21 under Macos (darwin). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3204
+|    ram: 8589934592
+|  os:
+|    bits: 64
+|    id: macos
+|    platform: darwin
+|  python:
+|    pip: 23.0.1
+|    version: 3.9.21
+2025-02-05 16:55:51,490 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/webassets...
+2025-02-05 16:55:51,491 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-cache...
+2025-02-05 16:55:51,491 - octoprint.server - INFO - Reset webasset folder octoprint2/generated/.webassets-manifest.json...
+2025-02-05 16:55:51,545 - octoprint.server - INFO - Shutting down intermediary server...
+2025-02-05 16:55:52,017 - octoprint.server - INFO - Intermediary server shut down
+2025-02-05 16:55:52,022 - octoprint.events - INFO - Processing startup event, this is our first event
+2025-02-05 16:55:52,022 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2025-02-05 16:55:52,024 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2025-02-05 16:55:52,025 - octoprint.server - INFO - Starting autorefresh of serial port list
+2025-02-05 16:55:52,027 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2025-02-05 16:55:52,028 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2025-02-05 16:55:52,031 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2025-02-05 16:55:52,034 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2025-02-05 16:55:52,850 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._http._tcp.local.' for _http._tcp.local.
+2025-02-05 16:55:53,663 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on abcs-Mac-mini._octoprint._tcp.local.' for _octoprint._tcp.local.
+2025-02-05 16:55:53,667 - octoprint.server - INFO - Listening on http://0.0.0.0:5003 and http://[::]:5003
+2025-02-05 16:55:53,686 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2025-02-05 16:55:53,949 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2025-02-05 16:55:53,952 - octoprint.util.pip - INFO - Using "/Users/sam/.pyenv/versions/3.9.21/bin/python3.9 -m pip" as command to invoke pip
+2025-02-05 16:55:53,952 - octoprint.util.pip - INFO - pip installs to /Users/sam/.pyenv/versions/3.9.21/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> no
+2025-02-05 16:55:53,952 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2025-02-05 16:55:53,954 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 191.4GB. That is considered sufficient for updating.
+2025-02-05 16:55:53,954 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2025-02-05 16:55:54,328 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5001/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:55:55,396 - octoprint.server.preemptive_cache - INFO - ... done in 1.07s
+2025-02-05 16:55:55,396 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'http://localhost:5002/', 'path': '/', 'query_string': 'l10n=en'}
+2025-02-05 16:55:55,507 - octoprint.server.preemptive_cache - INFO - ... done in 0.11s

@@ -1,0 +1,55 @@
+api:
+  key: FBg3-ofgBTEdwd60oxUb7ashlfIJnspfXLYsJQoIGYU
+plugins:
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1734507000
+      _important:
+        read_until: 1698310200
+      _octopi:
+        read_until: 1684929600
+      _plugins:
+        read_until: 1738022400
+      _releases:
+        read_until: 1738592100
+  classicwebcam:
+    _config_version: 1
+  discovery:
+    upnpUuid: 34937dfe-efb3-40a8-bd14-a4f2fb16f7bb
+  errortracking:
+    unique_id: 9158b284-e4c1-4a95-b58c-937b333b3a45
+  gcodeviewer:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 9
+  tracking:
+    enabled: false
+    unique_id: 1f56ccbb-a864-413d-a1fb-81194e1dda84
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+server:
+  firstRun: false
+  onlineCheck:
+    enabled: false
+  pluginBlacklist:
+    enabled: true
+  secretKey: 30863866f041d9c6b55757a6c5033ee6b801e52a97a41bc9cac2d1d2a9bba22a
+  seenWizards:
+    backup: null
+    classicwebcam: 1
+    corewizard: 4
+    tracking: null
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA

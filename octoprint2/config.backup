@@ -1,0 +1,23 @@
+api:
+  key: uaee9mEWhxfIWfnLitZyF43sUvi9kYi09QgUeUR77vI
+plugins:
+  announcements:
+    _config_version: 1
+  classicwebcam:
+    _config_version: 1
+  discovery:
+    upnpUuid: 9d30ddba-a31d-4b4e-8dab-9a21f9dd6c4a
+  errortracking:
+    unique_id: 4c647353-173c-4072-8743-d89669f1a65c
+  gcodeviewer:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 9
+  tracking:
+    unique_id: b78e46ac-6bda-45c3-beb0-93a6da315be6
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+server:
+  secretKey: c871e1616ffd9cc073df9acb0dfea20a8727de68fd5b5929090ebd4fb4d645a2
