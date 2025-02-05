@@ -3,6 +3,17 @@ api:
 plugins:
   announcements:
     _config_version: 1
+    channels:
+      _blog:
+        read_until: 1734507000
+      _important:
+        read_until: 1698310200
+      _octopi:
+        read_until: 1684929600
+      _plugins:
+        read_until: 1738022400
+      _releases:
+        read_until: 1738592100
   classicwebcam:
     _config_version: 1
   discovery:
@@ -14,10 +25,31 @@ plugins:
   softwareupdate:
     _config_version: 9
   tracking:
+    enabled: false
     unique_id: b78e46ac-6bda-45c3-beb0-93a6da315be6
   virtual_printer:
     _config_version: 1
 printerProfiles:
   default: _default
 server:
+  firstRun: false
+  onlineCheck:
+    enabled: false
+  pluginBlacklist:
+    enabled: true
   secretKey: c871e1616ffd9cc073df9acb0dfea20a8727de68fd5b5929090ebd4fb4d645a2
+  seenWizards:
+    backup: null
+    classicwebcam: 1
+    corewizard: 4
+    tracking: null
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA
